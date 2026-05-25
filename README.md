@@ -11,9 +11,7 @@ O projeto simula a triagem do Hospital **São Binário**, onde os pacientes não
 
 ## Javadoc
 
-A documentação do projeto foi gerada automatica com o **Javadoc** e publicada pelo **GitHub Pages**.
-
-Link:
+A documentação do projeto foi gerada automatica com o **Javadoc** e publicada pelo **GitHub Pages**. Link:
 ```text
 https://dukiel.github.io/07-priority-queue-heap/
 ```
