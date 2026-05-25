@@ -1,9 +1,8 @@
-**Autor:** Daniel LC  
+**Atividade:** Trabalho M2 - Fila de Prioridade com Heap  
 **Disciplina:** Estrutura de Dados  
 **Professor:** Luiz Henrique A. Salazar  
-**Atividade:** Trabalho M2 - Fila de Prioridade com Heap  
+**Aluno:** Daniel Luiz Cardoso
 **Linguagem:** Java
-
 
 # Fila de Prioridade com Heap Binário
 
