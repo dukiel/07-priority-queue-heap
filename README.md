@@ -5,7 +5,7 @@
 
 # Fila de Prioridade com Heap Binário
 
-Criar uma **fila de prioridade** usando *heap binário** simulando a triagem de um hospital **São Binário**,onde sao atendido spor prioridade clínica.
+Criar uma **fila de prioridade** usando *heap binário**, simular uma triagem do hospital **São Binário**, atendimentos por prioridade clínica.
 
 ## Javadoc
 
