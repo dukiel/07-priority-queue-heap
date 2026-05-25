@@ -14,19 +14,6 @@ A documentação do projeto foi gerada automatica com o **Javadoc** e publicada 
 https://dukiel.github.io/07-priority-queue-heap/
 ```
 
-## GitHub Pages
-
-O deploy da documentação é feito automaticamente pelo workflow:
-
-```text
-.github/workflows/javadoc.yaml
-```
-
-Para funcionar corretamente, o repositório deve estar configurado em:
-
-```text
-Settings → Pages → Source → GitHub Actions
-```
 ## Descrição do trabalho
 
 O sistema registra pacientes em uma fila de prioridade baseada em **Max-Heap**.
@@ -174,16 +161,6 @@ Funcionamento:
 3. Ele é comparado com os filhos.
 4. Se algum filho tiver maior prioridade, ocorre a troca.
 5. O processo continua até a heap ficar organizada.
-
-## Javadoc
-
-A documentação do projeto foi gerada automaticamente com **Javadoc** e publicada pelo **GitHub Pages**.
-
-Acesse em:
-
-```text
-https://dukiel.github.io/07-priority-queue-heap/
-```
 
 ## GitHub Pages
 
