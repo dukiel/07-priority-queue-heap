@@ -1,7 +1,12 @@
 # Fila de Prioridade com Heap Binário
 
-Atividade de Estrutura de Dados sobre implementação de uma **Fila de Prioridade** utilizando **Heap Binário**.
+**Autor:** Daniel LC  
+**Disciplina:** Estrutura de Dados  
+**Professor:** Luiz Henrique A. Salazar  
+**Atividade:** Trabalho M2 - Fila de Prioridade com Heap  
+**Linguagem:** Java
 
+Atividade de Estrutura de Dados sobre implementação de uma **Fila de Prioridade** utilizando **Heap Binário**.
 O projeto simula a triagem do Hospital **São Binário**, onde os pacientes não são atendidos por ordem de chegada, mas sim por prioridade clínica.
 
 ## Descrição
