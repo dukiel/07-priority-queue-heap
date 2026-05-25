@@ -77,6 +77,18 @@ Carlos
 └── README.md
 ```
 
+## Requisitos
+
+Para compilar e executar o projeto, e necessario ter instalado:
+
+- Java JDK 21 ou superior;
+- Git, caso deseje clonar ou enviar alteracoes para o repositorio;
+- Navegador web, caso deseje visualizar o Javadoc publicado no GitHub Pages.
+
+Tambem e necessario que a estrutura do projeto mantenha os arquivos `.java` dentro da pasta `src`.
+
+
+
 ## Classes Implementadas
 
 ### Paciente
