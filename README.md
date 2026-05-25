@@ -9,6 +9,29 @@
 Atividade de Estrutura de Dados sobre implementação de uma **Fila de Prioridade** utilizando **Heap Binário**.
 O projeto simula a triagem do Hospital **São Binário**, onde os pacientes não são atendidos por ordem de chegada, mas sim por prioridade clínica.
 
+
+## Javadoc
+
+A documentação do projeto foi gerada automatica com o **Javadoc** e publicada pelo **GitHub Pages**.
+
+Link:
+```text
+https://dukiel.github.io/07-priority-queue-heap/
+```
+
+## GitHub Pages
+
+O deploy da documentação é feito automaticamente pelo workflow:
+
+```text
+.github/workflows/javadoc.yaml
+```
+
+Para funcionar corretamente, o repositório deve estar configurado em:
+
+```text
+Settings → Pages → Source → GitHub Actions
+```
 ## Descrição
 
 O sistema registra pacientes em uma fila de prioridade baseada em **Max-Heap**.
