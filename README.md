@@ -5,8 +5,7 @@
 
 # Fila de Prioridade com Heap Binário
 
-Atividade de Estrutura de Dados sobre implementação de uma **Fila de Prioridade** utilizando **Heap Binário**.
-O projeto simula a triagem do Hospital **São Binário**, onde os pacientes não são atendidos por ordem de chegada, mas sim por prioridade clínica.
+Criar uma **fila de prioridade** usando *heap binário** simulando a triagem de um hospital **São Binário**,onde sao atendido spor prioridade clínica.
 
 ## Javadoc
 
