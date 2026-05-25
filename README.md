@@ -2,7 +2,6 @@
 **Disciplina:** Estrutura de Dados  
 **Professor:** Luiz Henrique A. Salazar  
 **Aluno:** Daniel Luiz Cardoso
-**Linguagem:** Java
 
 # Fila de Prioridade com Heap Binário
 
