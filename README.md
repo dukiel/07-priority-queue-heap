@@ -184,9 +184,3 @@ Settings → Pages → Source → GitHub Actions
 - GitHub Actions
 - GitHub Pages
 - Javadoc
-
-## Autor
-
-Daniel LC
-
-Projeto desenvolvido para a disciplina de **Estrutura de Dados**.
