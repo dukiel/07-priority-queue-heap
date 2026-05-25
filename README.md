@@ -1,3 +1,5 @@
+"Identificação"
+
 **Atividade:** Trabalho M2 - Fila de Prioridade com Heap  
 **Disciplina:** Estrutura de Dados  
 **Professor:** Luiz Henrique A. Salazar  
@@ -5,7 +7,7 @@
 
 # Fila de Prioridade com Heap Binário
 
-Criar uma **fila de prioridade** usando *heap binário**, simular uma triagemo onde sao atendidos por prioridade clínica.
+Criar uma **fila de prioridade** usando *heap binário**, simular uma triagem onde sao atendidos por prioridade clínica.
 
 ## Javadoc
 
