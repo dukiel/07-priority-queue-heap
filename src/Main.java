@@ -1,8 +1,8 @@
 /**
- * Classe principal da aplicacao.
+ * Main da aplicacao
  *
- * Registra os pacientes de teste, mostra o estado interno da heap apos cada insercao
- * e remove todos em ordem de prioridade.
+ * Registra os pacientes de teste, mostra os passos de insercao
+ * e mostra a saida depois da remocao deles.
  */
 public class Main {
     public static void main(String[] args) {

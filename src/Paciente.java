@@ -1,8 +1,7 @@
 /**
- * Representa um paciente da triagem do Hospital Sao Binario.
+ * classe pacientes a serem incorporados
  *
- * A prioridade do paciente e definida por tres criterios:
- * nivel de urgencia, tempo de espera e grupo vulneravel.
+ * aqui a gente adiciona os pacientes ja com base na prioridad deles.
  */
 public class Paciente {
     private String nome;
@@ -11,12 +10,12 @@ public class Paciente {
     private boolean grupoVulneravel;
 
     /**
-     * Cria um paciente com os dados utilizados na fila de prioridade.
+     * cria o paciente com base na fial de prioridae
      *
      * @param nome nome do paciente
-     * @param nivelUrgencia nivel de urgencia entre 1 e 5
-     * @param tempoEsperaMinutos tempo de espera em minutos
-     * @param grupoVulneravel true se o paciente pertence ao grupo vulneravel
+     * @param nivelUrgencia nivel de urgencia
+     * @param tempoEsperaMinutos tempo de espera
+     * @param grupoVulneravel true se o eh crianca ou idoso
      */
     public Paciente(String nome, int nivelUrgencia, int tempoEsperaMinutos, boolean grupoVulneravel) {
         this.nome = nome;
@@ -26,10 +25,10 @@ public class Paciente {
     }
 
     /**
-     * Compara este paciente com outro paciente seguindo as regras de prioridade.
+     * Compara este paciente com outro
      *
-     * @param outro paciente que sera comparado
-     * @return true se este paciente tem mais prioridade que o outro
+     * @param outro paciente comparado
+     * @return true se tem mais prioridade que o outro
      */
     public boolean temMaisPrioridadeQue(Paciente outro) {
         if (this.nivelUrgencia != outro.nivelUrgencia) {
@@ -48,7 +47,7 @@ public class Paciente {
     }
 
     /**
-     * Retorna a cor associada ao nivel de urgencia do paciente.
+     * Retorna a cor da urgencia do paciente.
      *
      * @return cor do nivel de urgencia
      */

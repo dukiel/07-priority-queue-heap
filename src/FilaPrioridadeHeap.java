@@ -1,18 +1,18 @@
 import java.util.Arrays;
 
 /**
- * Implementa uma fila de prioridade usando Heap Binario de Maximo.
+ * classe da fila de prioridade fazendo com heap binario de maximo
  *
- * O paciente de maior prioridade fica sempre na raiz do heap, posicao 0 do vetor.
+ * o pacinte com maior prioridade fica na head do vetor pos 0.
  */
 public class FilaPrioridadeHeap {
     private Paciente[] heap;
     private int tamanho;
 
     /**
-     * Cria uma fila de prioridade com capacidade inicial informada.
+     * cria o inicio da fila de prioridade ja com maximo setado
      *
-     * @param capacidade capacidade inicial do vetor interno
+     * @param capacidade setado maximo
      */
     public FilaPrioridadeHeap(int capacidade) {
         this.heap = new Paciente[capacidade];
@@ -20,9 +20,9 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Insere um paciente no final do vetor e aplica o algoritmo Sobe Heap.
+     * insere no final e sobe a heap
      *
-     * @param paciente paciente que sera inserido na fila
+     * @param paciente paciente no final
      */
     public void enfileirar(Paciente paciente) {
         if (tamanho == heap.length) {
@@ -35,10 +35,10 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Remove e retorna o paciente de maior prioridade da fila.
-     * Apos remover a raiz, move o ultimo elemento para a raiz e aplica Desce Heap.
+     * remove o paciente de maior priridae
+     * se for a raiz, move o ultimo pra ser raiz e desce a heap
      *
-     * @return paciente com maior prioridade
+     * @return paciente mais priorizado
      */
     public Paciente desenfileirar() {
         if (estaVazia()) {
@@ -58,9 +58,9 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Faz o elemento subir enquanto ele tiver mais prioridade que seu pai.
+     * sobe enquanto tem mais prioridae
      *
-     * @param indice posicao inicial do elemento no vetor
+     * @param indice pos inicial do vetor
      */
     private void sobeHeap(int indice) {
         while (indice > 0) {
@@ -76,9 +76,9 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Faz o elemento descer trocando com o filho de maior prioridade.
+     * faz descer trocando o filho de maior prioriudade
      *
-     * @param indice posicao inicial do elemento no vetor
+     * @param indice pos inicial do vetor
      */
     private void desceHeap(int indice) {
         while (true) {
@@ -106,10 +106,10 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Troca dois pacientes de posicao dentro do vetor da heap.
+     * faz o swap de pos dentro do vetor
      *
-     * @param i primeira posicao
-     * @param j segunda posicao
+     * @param i primeira pos
+     * @param j segunda pos
      */
     private void trocar(int i, int j) {
         Paciente auxiliar = heap[i];
@@ -118,32 +118,32 @@ public class FilaPrioridadeHeap {
     }
 
     /**
-     * Aumenta a capacidade do vetor interno quando ele fica cheio.
+     * aumenta o tamanho do vetor se precisar
      */
     private void aumentarCapacidade() {
         heap = Arrays.copyOf(heap, heap.length * 2);
     }
 
     /**
-     * Verifica se a fila esta vazia.
+     * verifica se eh vazia
      *
-     * @return true se a fila nao possui pacientes
+     * @return true se na otem pacientes
      */
     public boolean estaVazia() {
         return tamanho == 0;
     }
 
     /**
-     * Retorna a quantidade de pacientes na fila.
+     * Retorna o tamanho
      *
-     * @return tamanho atual da fila
+     * @return tamanho
      */
     public int getTamanho() {
         return tamanho;
     }
 
     /**
-     * Imprime o estado interno do heap, respeitando a ordem do vetor.
+     * imprime a heap respeitando ordem
      */
     public void imprimirHeap() {
         System.out.print("Heap: ");
